@@ -1,0 +1,137 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #f4a261;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background: #f4a261;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #e76f51;
+}
+
+/* About Section */
+.about {
+    padding: 2rem;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.about p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Services Section */
+.services {
+    padding: 2rem;
+    text-align: center;
+    background: #f4a261;
+    color: #fff;
+}
+
+.services h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card {
+    background: #fff;
+    color: #333;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+/* Footer Section */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
